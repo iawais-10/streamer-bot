@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2048" height="768" viewBox="0 0 2048 768">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FCFEFF"/><stop offset=".52" stop-color="#EFFBF6"/><stop offset="1" stop-color="#EEF5FF"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#4BCB9B"/><stop offset=".52" stop-color="#70BEEA"/><stop offset="1" stop-color="#8A73E8"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#506B78" flood-opacity=".16"/></filter>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#6E8793" stroke-opacity=".07"/></pattern>
+  </defs>
+  <rect x="12" y="12" width="2024" height="744" rx="56" fill="url(#bg)"/><rect x="12" y="12" width="2024" height="744" rx="56" fill="url(#grid)"/>
+  <circle cx="1900" cy="70" r="260" fill="#C5F1DE" opacity=".48"/><circle cx="1740" cy="730" r="310" fill="#D2DDF9" opacity=".52"/>
+  <g transform="translate(86 76)"><path d="M0 58 35 0l35 58-18-8-17-28-17 28z" fill="url(#accent)"/><text x="92" y="49" font-family="Arial,Helvetica,sans-serif" font-size="52" font-weight="800" fill="#192034">Appilot</text></g>
+  <text x="88" y="232" font-family="Arial,Helvetica,sans-serif" font-size="69" font-weight="850" fill="#1A2033">SPOTIFY CAMPAIGN</text>
+  <text x="88" y="318" font-family="Arial,Helvetica,sans-serif" font-size="76" font-weight="900" fill="url(#accent)">MANAGEMENT TOOL</text>
+  <text x="90" y="380" font-family="Arial,Helvetica,sans-serif" font-size="28" fill="#536078">Campaign operations, Android playback QA and reporting in one workspace.</text>
+  <g font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" fill="#26324C"><rect x="88" y="430" width="254" height="68" rx="34" fill="#FFFFFF" stroke="#BCEAD8" stroke-width="2"/><text x="128" y="473">Campaign Control</text><rect x="362" y="430" width="248" height="68" rx="34" fill="#FFFFFF" stroke="#BFDFF1" stroke-width="2"/><text x="404" y="473">Android QA</text><rect x="630" y="430" width="252" height="68" rx="34" fill="#FFFFFF" stroke="#D4CAF8" stroke-width="2"/><text x="671" y="473">Live Reporting</text></g>
+  <rect x="88" y="552" width="320" height="82" rx="28" fill="url(#accent)" filter="url(#shadow)"/><text x="149" y="605" font-family="Arial,Helvetica,sans-serif" font-size="31" font-weight="800" fill="#FFFFFF">appilot.app</text>
+  <g filter="url(#shadow)"><rect x="1110" y="104" width="824" height="558" rx="38" fill="#FFFFFF" stroke="#DDE7EB" stroke-width="2"/></g>
+  <g font-family="Arial,Helvetica,sans-serif"><circle cx="1160" cy="149" r="9" fill="#FF6B7A"/><circle cx="1188" cy="149" r="9" fill="#FFC65B"/><circle cx="1216" cy="149" r="9" fill="#47C98B"/><text x="1160" y="218" font-size="30" font-weight="800" fill="#222A40">Campaign Operations</text>
+    <rect x="1160" y="254" width="214" height="126" rx="22" fill="#ECF9F4"/><text x="1184" y="292" font-size="19" fill="#68758A">Devices ready</text><text x="1184" y="349" font-size="46" font-weight="800" fill="#32A97F">08</text>
+    <rect x="1394" y="254" width="214" height="126" rx="22" fill="#EDF7FD"/><text x="1418" y="292" font-size="19" fill="#68758A">Tasks queued</text><text x="1418" y="349" font-size="46" font-weight="800" fill="#4F9FCB">24</text>
+    <rect x="1628" y="254" width="254" height="126" rx="22" fill="#F2F0FD"/><text x="1652" y="292" font-size="19" fill="#68758A">Checks completed</text><text x="1652" y="349" font-size="46" font-weight="800" fill="#7560CF">116</text>
+    <text x="1160" y="438" font-size="22" font-weight="700" fill="#303A52">Authorized workflow</text>
+    <g font-size="17" font-weight="700"><rect x="1160" y="468" width="146" height="60" rx="16" fill="#F1FBF7"/><text x="1194" y="505" fill="#258C6B">Configure</text><text x="1317" y="505" fill="#909AAA">›</text><rect x="1330" y="468" width="146" height="60" rx="16" fill="#F2F8FD"/><text x="1369" y="505" fill="#4C8DB3">Approve</text><text x="1487" y="505" fill="#909AAA">›</text><rect x="1500" y="468" width="146" height="60" rx="16" fill="#F4F2FD"/><text x="1542" y="505" fill="#7060BF">Run QA</text><text x="1657" y="505" fill="#909AAA">›</text><rect x="1670" y="468" width="170" height="60" rx="16" fill="#F6F7FB"/><text x="1709" y="505" fill="#59657C">Report</text></g>
+    <rect x="1160" y="572" width="680" height="13" rx="7" fill="#EBEFF4"/><rect x="1160" y="572" width="557" height="13" rx="7" fill="url(#accent)"/><text x="1854" y="588" font-size="17" fill="#647087">82%</text>
+  </g>
+</svg>
+
